@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); /* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap'); /* font-family: 'Montserrat', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    background-color: #2d405f;   
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Inicio configurações do cabeçalho */
+header {
+}
+
+#top {
+    border: 1px solid #2d405f;
+    background-color: #2d405f;
+    text-align: center;
+    height: 180px;
+
+}
+
+#brasao {
+    position: relative;
+    float: left;
+    margin: 10px;
+    
+}
+
+.navtext {
+    color: #4abc9e;
+    font-size: 70px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+#navbar {
+    font-size: 25px;
+}
+
+#navbar a {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #f4f4f7;
+    font-family: 'Roboto', sans-serif;   
+}
+
+#navbar a:hover {
+    background-color: #4abc9e;
+    color: #f4f4f7;
+}
+
+/* Fim das configurações do cabeçalho */
+
+/* Inicio das configurações do Corpo Seção foto*/
+
+#topimagecity {
+    height: 1500px;
+    background-image: url(./img//cmaposgeraispretoebranco.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#topimagecity:hover {
+    background-image: url(./img/camposgerais2.png);
+    cursor: pointer;
+}
+
+
+.resumecity {
+    color: #f4f4f7;
+    border: 8px solid #f4f4f7;
+    display: inline-block;
+    height: 350px;
+    font-size: 40px;
+    width: 1100px;
+    padding: 20px;
+    background-color: #4abc9e;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.resumecity p {
+    text-align: justify;
+    margin-top: 30px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.resumecity:hover {
+    background-color: #2d405f;
+    color: #4abc9e;
+}
+
+#video {
+    text-align: center;
+    margin-top: 200px;
+    border: none;
+}
+
+/* Fim das configurações do Corpo Seção foto*/
+
+/* Inicio das configurações do Corpo*/
+
+.corpo {
+    margin: 50px 10%;
+    background-color: #f4f4f7;
+    border-radius: 15px;
+    padding: 45px;
+    font-size: 35px;
+}
+
+.corpo p, h2 {
+    margin-bottom: 35px;
+    color: #2d405f;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    color: #4abc9e;
+}
+
+.curiosidades li {
+    margin-bottom: 30px;
+}
