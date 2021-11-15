@@ -9,7 +9,7 @@
 
 
 body {
-    background-color: #2d405f;   
+    background-color: #7b958d;   
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -19,46 +19,48 @@ header {
 }
 
 #top {
-    border: 1px solid #2d405f;
-    background-color: #2d405f;
+    border: 1px solid #223839;
+    background-color: #223839;
     text-align: center;
-    height: 180px;
+    height: 100px;
 
 }
 
 #brasao {
-    position: relative;
+    position: absolute;
     float: left;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
     
 }
 
 .navtext {
-    color: #4abc9e;
-    font-size: 70px;
-    margin-top: 25px;
-    margin-bottom: 17px;
+    color: #7b958d;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 12px;
     text-align: center;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer; 
     
 }
 
 #navbar {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #navbar a {
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    color: #f4f4f7;
+    color: #f2f3ee;
     font-family: 'Roboto', sans-serif;   
 }
 
 #navbar a:hover {
     background-color: #4abc9e;
-    color: #f4f4f7;
+    color: #f2f3ee;
 }
 
 /* Fim das configurações do cabeçalho */
@@ -79,33 +81,33 @@ header {
 
 
 .resumecity {
-    color: #f4f4f7;
-    border: 8px solid #f4f4f7;
+    color: #f2f3ee;
+    border: 2px solid #f2f3ee;
     display: inline-block;
-    height: 350px;
-    font-size: 40px;
-    width: 1100px;
-    padding: 20px;
+    height: 150px;
+    font-size: 20px;
+    width: 600px;
+    padding: 0px;
     background-color: #4abc9e;
     margin-top: 200px;
-    margin-left: 250px;
+    margin-left: 100px;
 }
 
 .resumecity p {
     text-align: justify;
-    margin-top: 30px;
-    padding: 25px;
+    padding: 15px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .resumecity:hover {
-    background-color: #2d405f;
-    color: #4abc9e;
+    background-color: #7b958d;
+    color: #223839;
 }
 
 #video {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
     border: none;
 }
 
@@ -115,15 +117,16 @@ header {
 
 .corpo {
     margin: 50px 10%;
-    background-color: #f4f4f7;
+    background-color: #f2f3ee;
     border-radius: 15px;
     padding: 45px;
-    font-size: 35px;
+    font-size: 15px;
 }
 
 .corpo p, h2 {
-    margin-bottom: 35px;
-    color: #2d405f;
+    margin-left: 0;
+    margin-bottom: 30px;
+    color: #223839;
 }
 
 .titulo {
@@ -131,6 +134,58 @@ header {
     color: #4abc9e;
 }
 
-.curiosidades li {
-    margin-bottom: 30px;
+.curiosidades div ol li {
+    margin-bottom: 20px;
+}
+
+.prefeitos li {
+    list-style: none;
+}
+
+.rodape {
+    background-color: #223839;
+    color: #f2f3ee;  
+}
+
+
+.contatoredes {
+    color: #f2f3ee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.redesocial {
+    text-align: center;
+}
+
+.rd1 {
+    margin-right: 30px;
+}
+
+.creditos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.check1 {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.project {
+    margin-top: 20px;
+    color: #f2f3ee;
+    font-size: 12px;
+}
+
+.project a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #4abc9e;
+}
+
+.project a:hover {
+    color: #56c4e6;
 }
